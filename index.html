@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="topbar">
+        <span class="toggle-btn" onclick="toggleSidebar()">&#9776;</span>
+        <div class="logo">
+            <img src="asset/image/icon.png" alt="">
+        </div><span class="torque"><p>Torque Wrench</p>portal</span>
+        <h1 class="justify-content-start">JS Admin Dashboard</h1>
+        <div class="search">
+            <input type="search" class="searchb" placeholder="Search"><span class="search-icon"><i class="ri-search-line"></i></span>
+        </div>
+        <div class="help " style="padding-left: 20px;">
+            <i class="ri-notification-4-line" style="padding-right: 8px ;"></i><span><i class="ri-error-warning-line"style="padding-right: 8px ;"></i></span><span><i class="ri-settings-3-line"></i></span>
+            <span><div class="pro" style="background-color: blue;"></div></span>
+
+        </div>
+    </div>
+    </div>
+    <div class="container">
+        <div class="sidebar" id="sidebar">
+            <!-- <h2>Torque Wrench</h2> -->
+            <ul>
+
+                <li> <span><i class="ri-dashboard-fill"></i></span> Dashboard</li>
+                <li><span><i class="ri-shopping-cart-fill"></i></span> User Management</li>
+                <li><span><i class="ri-file-text-line"></i></span> Stores Management</li>
+                <li><span><i class="ri-message-3-fill"></i></span> Inventory Management</li>
+                <li><span><i class="ri-shopping-cart-fill"></i></span> Order Management</li>
+                <li><span><i class="ri-file-text-line"></i></span> Reports</li>
+                <li><span><i class="ri-message-3-fill"></i></span> Customer Review</li>
+            </ul>
+            <ul class="set">
+                <li>OTHERS</li>
+                <li><span><i class="ri-settings-3-fill"></i></span>System Settings</li>
+                <li><span><i class="ri-wallet-3-fill"></i></span>Activity Logs</li>
+                <li><span><i class="ri-question-fill"></i></span>Help</li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="row order">
+                <div class="col-8 dashboard-cards">
+                    <div class="card">
+                        <div class="icon"><i class="ri-file-list-line"></i></div>
+                        <span><h3>Orders Received Today</h3>
+                            <p>10</p></span>
+                    </div>
+                    <div class="card">
+                        <div class="icon"><i class="ri-file-list-line"></i></div>
+                        <span>
+                        <h3>Orders Completed</h3>
+                        <p>14</p>
+                    </div>
+                    <div class="card">
+                        <div class="icon"><i class="ri-file-list-line"></i></div>
+                        <span>
+                        <h3>Orders Pending</h3>
+                        <p>36</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="asset/js/script.js"></script>
+
+</html>
